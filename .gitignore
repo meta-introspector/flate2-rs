@@ -2,3 +2,4 @@ target
 Cargo.lock
 examples/*.gz
 .idea
+process-repo.log

@@ -14,8 +14,8 @@ libfuzzer-sys = "0.4"
 flate2 = { path = ".." }
 
 # Prevent this from interfering with workspaces
-[workspace]
-members = ["."]
+#[workspace]
+#members = ["."]
 
 [[bin]]
 name = "fuzz_gz_roundtrip"
